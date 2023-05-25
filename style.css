@@ -94,7 +94,11 @@ ul li a{
     font-size: 40px;
     color: #e7a209;
     margin: 100px 0;
-    padding: 0 50px;
+    padding: 0 20px;
+}
+
+.img1{
+    margin-top: -60px;
 }
 
 .projects{
@@ -216,16 +220,13 @@ ul li a{
 
 }
 
-
-
-footer{
-    height: 50px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #5a5c5a;
-    color: #e7a209;
-    font-size: 20px;
+.bottom{
+    margin-bottom: 30px;
 }
+
+
+
+
+
+
 
