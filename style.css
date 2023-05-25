@@ -51,6 +51,7 @@ ul{
     font-size: 20px;
     padding: 15px 0;
     color: #e7a209;
+    flex-wrap: wrap;
     
 
 }
@@ -106,6 +107,7 @@ ul li a{
     justify-content: space-between;
     align-items: center;
     margin: 50px;
+    
 }
 
 .projects_image img{
@@ -224,7 +226,139 @@ ul li a{
     margin-bottom: 30px;
 }
 
+@media only screen and (max-width: 1150px){
+    .reimagine{
+        font-size:25px;
+    }
 
+    .para{
+        font-size: 20px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 1000px){
+
+    .new_pro{
+        flex-wrap: wrap;
+    }
+
+    .new_pro_s{
+        flex-wrap: wrap-reverse;
+    }
+
+    .projects_image2 img{
+        margin-top: 10px;
+    }
+
+    .projects{
+        justify-content: center;
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 900px){
+.header h2{
+    font-size: 50px;
+}
+
+.header p{
+    font-size: 30px;
+}
+
+.pro1, .pro2, .last{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team_pic{
+
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 800px){
+ul{
+    flex-direction: column;
+    
+}
+
+ul li{
+ margin-bottom: 20px; 
+}
+
+nav{
+    position: static;
+}
+
+.header{
+    margin-top: 0;
+}
+}
+
+@media only screen and (max-width: 600px){
+    .header h2{
+        font-size: 40px;
+    }
+
+    .projects_image img{
+        height: 300px;
+        width: 300px;
+        border-radius:500px;
+        margin-right: 0;
+       
+    }
+
+    .team_pic{
+
+        grid-template-columns: auto;
+        
+
+   
+        
+    }
+
+   
+}
+@media only screen and (max-width: 500px){
+    .header h2{
+        font-size: 30px;
+    }
+
+    .header p{
+        font-size: 25px;
+    }
+@media only screen and (max-width: 375px){
+    .header h2{
+        font-size: 25px;
+    }
+
+    .header p{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .header h2{
+        font-size: 20px;
+    }
+
+    .header p{
+        font-size: 15px;
+    }
+}
+
+}
 
 
 
